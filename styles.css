@@ -18,6 +18,24 @@ section {
   margin: auto;
 }
 
+.progress-bar {
+  background-color: #ccc;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: 25px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: #4caf50;
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+}
 .skill {
   margin-bottom: 20px;
 }
