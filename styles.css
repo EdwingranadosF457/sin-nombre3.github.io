@@ -18,37 +18,34 @@ section {
   margin: auto;
 }
 
-.habilidades .barra {
+.skill {
   margin-bottom: 20px;
 }
 
-.barra span {
-  display: block;
-  margin-bottom: 5px;
+.skill p {
   font-weight: bold;
+  margin: 0 0 5px 0;
 }
 
-.contenedor-barra {
+.skill-bar {
   background-color: #ddd;
+  border-radius: 20px;
   height: 25px;
-  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
   overflow: hidden;
 }
 
-.porcentaje {
+.skill-fill {
   height: 100%;
-  border-radius: 10px;
-  text-align: right;
-  padding-right: 10px;
-  color: white;
   line-height: 25px;
-}
-html {
-  width: 35%;
-  background-color: #e44d26;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
 }
 
-.css {
-  width: 40%;
-  background-color: #2965f1;
+.skill-fill.css {
+  width: 25%;
+  background-color: #4caf50; /* Verde como en la imagen */
 }
