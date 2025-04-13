@@ -43,3 +43,12 @@ section {
   color: white;
   line-height: 25px;
 }
+html {
+  width: 35%;
+  background-color: #e44d26;
+}
+
+.css {
+  width: 40%;
+  background-color: #2965f1;
+}
